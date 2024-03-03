@@ -18,7 +18,7 @@ Firebase provides a comprehensive set of tools and services that can significant
 
 
 ## Rationale
-Why do we choose this solution?
+Firebase provide multiple tools to web application development, The large community of firebase make it strong beneficial to developer. Firebase provide dependency to many programming language(ie. Javascripts and Java SpringBoot) and the strongest benefit is scalability.
 
 ## Consequences
 Pros – What becomes easier?
