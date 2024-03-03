@@ -1,7 +1,15 @@
 # Title
 Mobile Application
 ## Context
-What is the issue that we're seeing that is motivating this decision or change?
+The decision to utilize Firebase as the backend solution for our mobile application development project.
+
+1. Scalability and Performance Concerns:
+
+Current solution: Existing backend infrastructure struggles to handle increasing user base and data volume, leading to slow loading times and performance issues.
+
+2. Cost Optimization:
+
+Challenge: The current backend solution incurs high maintenance and operational costs.
 
 ## Decision
 After careful consideration, we have chosen to leverage Firebase for its range of services that fulfill the important demands to develop mobile application, such as Realtime Database, Authentication, Cloud Firestore, Cloud Storage, and Hosting.
