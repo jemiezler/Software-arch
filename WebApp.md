@@ -5,7 +5,6 @@ Web Application
 What is the issue that we're seeing that is motivating this decision or change?
 
 ## Decision
-What is the solution that we're proposing and/or doing?
 Firebase provides a comprehensive set of tools and services that can significantly simplify the development process for web apps, allowing us to focus on building great user experiences. Therefore, we use Firebase to address the issue.
 
 
