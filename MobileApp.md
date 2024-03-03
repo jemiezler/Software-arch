@@ -8,7 +8,7 @@ After careful consideration, we have chosen to leverage Firebase for its range o
 
 
 ## Rationale
-Why do we choose this solution?
+Firebase offer lots of tools and solution for complete backend service in their own. It's provide scalability in later. developer can start without cost and can extended their own budget later.
 
 ## Consequences
 Pros – What becomes easier?
