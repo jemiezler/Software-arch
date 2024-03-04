@@ -23,19 +23,19 @@ Cons – Carefully consider requirement and potential before commited project in
 ## Sample code
 This is Kotlin integrated with Firebase Authentication and Cloud Firestore(For traditional android app)
 
-**Add Firebase Authentication and Firestore dependencies to build.gradle file**
+// Add Firebase Authentication and Firestore dependencies to build.gradle file
 implementation 'com.google.firebase:firebase-auth-ktx:20.0.4'
 implementation 'com.google.firebase:firebase-firestore-ktx:23.0.2'
 
-**Import module to Kotlin file**
+// Import necessary Firebase modules in your Kotlin file
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
 
-**Initializing Firebase services**
+// Initializing Firebase services
 val auth: FirebaseAuth = FirebaseAuth.getInstance()
 val db: FirebaseFirestore = FirebaseFirestore.getInstance()
 
-**signup user with email and password**
+// Signup user with email and password
 auth.createUserWithEmailAndPassword(email, password)
     .addOnCompleteListener(this) { task ->
         if (task.isSuccessful) {
@@ -57,10 +57,10 @@ auth.createUserWithEmailAndPassword(email, password)
         }
     }
 
-**signout**
+// Sign out
 auth.signOut()
 
-**event listener**
+// Event listener
 auth.addAuthStateListener { firebaseAuth ->
     val user = firebaseAuth.currentUser
     if (user != null) {
