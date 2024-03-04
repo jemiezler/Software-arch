@@ -31,6 +31,8 @@ Cons – for projects requiring intricate backend setups, Firebase might not be 
 
 ## Sample code
 This code is a basic Firebase Web App for authentication using Firebase Authentication and Firestore.
+```html
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
