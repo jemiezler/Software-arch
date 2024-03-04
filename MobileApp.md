@@ -22,7 +22,7 @@ Cons – Carefully consider requirement and potential before commited project in
 
 ## Sample code
 This is Kotlin integrated with Firebase Authentication and Cloud Firestore(For traditional android app)
-
+```kotlin
 // Add Firebase Authentication and Firestore dependencies to build.gradle file
 implementation 'com.google.firebase:firebase-auth-ktx:20.0.4'
 implementation 'com.google.firebase:firebase-firestore-ktx:23.0.2'
